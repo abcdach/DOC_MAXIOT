@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>MAXIOT სისტემის შექნა &mdash; MAXIOT 1.0.0 documentation</title>
+  <title>MAXIOT სისტემის მომზადება &mdash; MAXIOT 1.0.0 documentation</title>
   
 
   
@@ -81,7 +81,7 @@
             
             
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">MAXIOT სისტემის შექნა</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MAXIOT სისტემის მომზადება</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">MAXIOT სისტემის პლატფორმა</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">MAXIOT სისტემის მიკროკომპიუტერი</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">ოპერატიული მეხსიერება</a></li>
@@ -144,7 +144,7 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>MAXIOT სისტემის შექნა</li>
+      <li>MAXIOT სისტემის მომზადება</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -164,11 +164,11 @@
            <div itemprop="articleBody">
             
   <div class="section" id="maxiot">
-<h1><a class="toc-backref" href="#id9">MAXIOT სისტემის შექნა</a><a class="headerlink" href="#maxiot" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id9">MAXIOT სისტემის მომზადება</a><a class="headerlink" href="#maxiot" title="Permalink to this headline">¶</a></h1>
 <div class="contents topic" id="id1">
 <p class="topic-title first">სარჩევი</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#maxiot" id="id9">MAXIOT სისტემის შექნა</a></p>
+<li><p><a class="reference internal" href="#maxiot" id="id9">MAXIOT სისტემის მომზადება</a></p>
 <ul>
 <li><p><a class="reference internal" href="#id2" id="id10">MAXIOT სისტემის პლატფორმა</a></p>
 <ul>
@@ -195,21 +195,29 @@
 <h3><a class="toc-backref" href="#id11">MAXIOT სისტემის მიკროკომპიუტერი</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>MAXIOT სისტემის ყველა ძირითადი პროგრამული მოდულები დაწერილია ისე, რომ
 სრულფასოვნად გაეშვას ისეთი მიკროკომპიუტერებზე, როგორც არის <a class="reference external" href="https://www.raspberrypi.org/">Raspberry pi</a>
-, <a class="reference external" href="http://www.orangepi.org/">Orange pi</a> და სხვა. მცირე ზომის ერთდაფიანი მიკროკომპიუტერები მრავლად არის
-წარმოდგენილი თანამედროვე ბაზარზე. მიკროკომპიუტერები ერთმანეთისგან განსხვავდება
-სხვადასხვა პერიფერიული მოწყობილობათა კომლექტაციით, პროცესორის წაროებლით,
+, <a class="reference external" href="http://www.orangepi.org/">Orange pi</a> და სხვა. მცირე ზომის ერთდაფიანი
+მიკროკომპიუტერები მრავლად არის წარმოდგენილი თანამედროვე ბაზარზე. მიკროკომპიუტერები
+ერთმანეთისგან განსხვავდება სხვადასხვა პერიფერიული მოწყობილობათა კომლექტაციით, პროცესორის წაროებლით,
 ოპერატიული მეხსირების რაოდენობით და სხვა. ყელა მიკროკომპიუტერის პროცესორის
 არქიტეკტურა 32 და 64 ბიტიანი ARM Cortex. MAXIOT სისტემის შექმნილია ისე რომ
 ის ეშვებოდეს ისეთი მცირე ზომის მიკროკომპიუტერებზე როგორიც არის Raspberry pi zero და
 Orange pi zero.</p>
 <a class="reference internal image-reference" href="../_images/002.png"><img alt="../_images/002.png" class="align-center" src="../_images/002.png" style="width: 340px;" /></a>
-<p>სუსტი მიკროკომპიუტერის არჩევის შემთხვევაში, ჩვენ უნდა გავითვალისწინოთ
+<p><strong>შენიშვნა:</strong> სუსტი მიკროკომპიუტერის არჩევის შემთხვევაში, ჩვენ უნდა გავითვალისწინოთ
 ის ფატორი რომ, ჩვენ ვიქნებით შეზღუდული კომპიუტერული რესურსებში, რაც უცილებლად არის
 გასათვალისწინებელი რადგან გარდა MAXIOT სისტემის მოდულებისა, ამავე მიკროკოპიუტერებზე
 ხდება სხვადასხვა დამაებითი პროგრამების გაშვება, რომლებიც ამდიდრებენ MAXIOT სისტემის
 დამატებითი შესაძლებლობებით. მაგალითად მონაცემთა ბაზები, რომლებიც უზრუნველყოფენ მინაცემების
 დაგროვებას ანდა მინაცემთა ასახვის პლიკაციები, რომლებიც უზრუნველყოფენ მონაცემების ასახვას
 სხვადასხვა სტილის გრაფიკების და ჩართების საშულაებით.</p>
+<dl class="simple">
+<dt><strong>დასკვნა:</strong></dt><dd><p>MAXIOT სისტემა შეიძლება განთავსდეს პრაქტიკულად, <a class="reference external" href="https://en.wikipedia.org/wiki/Linux">ლინუქსი</a>
+ოპერაციული სისტემის ქვეშ მომუშავენებისმიერი ნებისმიერი მიკროკომპიუტერში ან ვირტულაურ პლათფორმებზე
+როგორიცაა <a class="reference external" href="https://www.virtualbox.org/">VirtualBox</a> ან <a class="reference external" href="https://www.vmware.com/">VmWare</a>.
+მნიშვნელობა არა აქვს იქნება კომპიუტერს პროცესორის არქიტეკტურა <a class="reference external" href="https://en.wikipedia.org/wiki/ARM_architecture">ARM</a> თუ
+<a class="reference external" href="https://en.wikipedia.org/wiki/X86">x86</a>.</p>
+</dd>
+</dl>
 </div>
 <div class="section" id="id4">
 <h3><a class="toc-backref" href="#id12">ოპერატიული მეხსიერება</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
@@ -226,6 +234,21 @@ Orange pi zero.</p>
 </div>
 <div class="section" id="id5">
 <h3><a class="toc-backref" href="#id13">დამატებითი პერიფერიული მოწყობილობა</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>MAXIOT სისტემა შეიძლება განთავსდეს პრაქტიკულად ნებისმიერ მიკროკომპიუტერში. იმის და მიხედვით თუ
+რაოდენობის და რა სირთულის ამოცანები აქვს შესასრულებელი MAXIOT სისტემას, საჭიროა სწორედ განისაზგვროს
+მიკროკომპიუტერის პროცესორის და ოპერატიული მეხსიერების რესურსები. გარდა ამისა სისტემის მიმართ დასმული
+ამოცანა შეიძლება ითხოვდეს გარკვეულ პერიფერიული მოწყობილობების არსებობას. შეიძლება მოხდეს ისე რომ პროცესორის და
+ოპერატიული მეხსიერების რესურსების მიხედვით შერჩეულ მიკროკომპიუტერ არ გააჩნდეს ესა თუ ის პერიფერიული
+მოწყობილობა ან თუ გააჩნია არ ქონდეს  საჭირო პარამეტრები. ასეთ შემთხვევაში უნდა მოხდეს საჭირო
+პერიფერიული მოწყობილობის დამატება. მიკროკომპიუტერებს გააჩნიათ გარე პერიფერიული მოწყობილობების
+მიერთებისთვის საჭიროა სხვადასხვა პორტები (ხშირ შემთხევეაში ეს არის USB პორტი). თუ ასეთი პორტი არ გამოიძებნა
+უნდა შეიცვალის მიკროკომპიუტერი ანდა მოხდეს ალტერნატიული პერიფერიული მოწყობილობის მოძიება.</p>
+<p>მაგალითი:  სისტემის მიმართ დასმული ამოცანის მიხედვით, შეიძლება საჭირო გახდეს მონაცემთა უკაბელო გადაცემის
+გამოყენება. არსებობს მონაცემთა უკაბელო გადაცემი სხვადასხვა სტანდარტები (WiFi, IrDA, Bluetooth, LoRa … ).
+თუ ამოცანა ითხოვს WiFi ტექნოლოგიის გამოყენებას, მაშინე უნდა შევარჩიოთ მიკროკომპიუტერი რომ გააჩნდეს დაფაზე
+განთავსებული WiFi მოდული და იმ შემთხვევაში თუ ეს მოდული არ აკმაყოფილებს დასმული ამოცანის მოთხოვნებს
+(ზალიან სუსტი გადაცემა- მუსაობს მოხოლოდ მოკლე დისტანციებზე) ან საერთოდ არ არსებობს დაფაზე , მაშინ ცვენ
+უნდა ფამოვიყენოთ WiFi გარე მოდული. ხშირ შემთხვევაში გარე მოდულები იყენებენ USB პორტებს.</p>
 </div>
 </div>
 <div class="section" id="id6">
