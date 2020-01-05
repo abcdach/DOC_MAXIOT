@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>MAXIOT სისტემის სერვერი &mdash; MAXIOT 1.0.0 documentation</title>
+  <title>MAXIOT სისტემია &mdash; MAXIOT 1.0.0 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="MAXIOT სისტემის შექნა" href="P01_00.html" /> 
+    <link rel="prev" title="MAXIOT სისტემის მომზადება" href="P01_00.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -80,22 +80,22 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="P01_00.html">MAXIOT სისტემის შექნა</a></li>
+<li class="toctree-l1"><a class="reference internal" href="P01_00.html">MAXIOT სისტემის მომზადება</a></li>
 </ul>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">MAXIOT სისტემის სერვერი</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">MAXIOT სისტემის სერვერის და კლიენტის ზოგადი ცნება</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id3">რა არის სერვერი</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">რა არის კლიენტი</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MAXIOT სისტემია</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#maxiot-server">MAXIOT SERVER</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">რა არის სერვერი</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">რა არის კლიენტი</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#maxiot-studio">MAXIOT STUDIO</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id5">MAXIOT STUDIO აპლიკაციის პლათფორმა</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">MAXIOT STUDIO აპლიკაციის პლათფორმა</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#studio">STUDIO ტერმინალი და საინფორმაციო დაფა</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#studio-maxiot">STUDIO-ს  დაკავშირება MAXIOT-ის სერვერთან</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">STUDIO კომპონენტების ოთახები</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id7">STUDIO კომპონენტებთან მუშაობა</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id8">კომპონენტების - სისტემაში დამატება</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">STUDIO კომპონენტების ოთახები</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">STUDIO კომპონენტებთან მუშაობა</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">კომპონენტების - სისტემაში დამატება</a></li>
 </ul>
 </li>
 </ul>
@@ -147,7 +147,7 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>MAXIOT სისტემის სერვერი</li>
+      <li>MAXIOT სისტემია</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -167,27 +167,32 @@
            <div itemprop="articleBody">
             
   <div class="section" id="maxiot">
-<h1><a class="toc-backref" href="#id9">MAXIOT სისტემის სერვერი</a><a class="headerlink" href="#maxiot" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id8">MAXIOT სისტემია</a><a class="headerlink" href="#maxiot" title="Permalink to this headline">¶</a></h1>
+<p>MAXIOT სისტემია ეს არის ინსტრუმენტი, რომლის საშუალებით ფიზიკური მოწყობილობები შემოგვყავს
+ვირტუალურ სამყაროში სადაც ასევე არსებობენ ვირტუალური მოწყობილობებიც. ასეთი ტრანსფორმაციის მიზანია
+მოწყობილობებს შორის მონაცემთა გაცვლის კავშირების მარტივი მენეჯმენტი. ვირტუალურ სამყაროში მოწყობილობები
+იღებენ და გამოცემენ მონაცემებს, საჭიროების შემთხვევაში ხდება მონაცემების ტრანსფორმაცი და მონაცემემბის
+ფიზიკური მოწყობილობის ავატართან დაბრუნებისას ხდება ამ მონაცემების რეალურ სამყაროში ასახვა.</p>
 <div class="contents topic" id="id1">
 <p class="topic-title first">სარჩევი</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#maxiot" id="id9">MAXIOT სისტემის სერვერი</a></p>
+<li><p><a class="reference internal" href="#maxiot" id="id8">MAXIOT სისტემია</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id10">MAXIOT სისტემის სერვერის და კლიენტის ზოგადი ცნება</a></p>
+<li><p><a class="reference internal" href="#maxiot-server" id="id9">MAXIOT SERVER</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id3" id="id11">რა არის სერვერი</a></p></li>
-<li><p><a class="reference internal" href="#id4" id="id12">რა არის კლიენტი</a></p></li>
+<li><p><a class="reference internal" href="#id2" id="id10">რა არის სერვერი</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id11">რა არის კლიენტი</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#maxiot-studio" id="id13">MAXIOT STUDIO</a></p>
+<li><p><a class="reference internal" href="#maxiot-studio" id="id12">MAXIOT STUDIO</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id5" id="id14">MAXIOT STUDIO აპლიკაციის პლათფორმა</a></p></li>
-<li><p><a class="reference internal" href="#studio" id="id15">STUDIO ტერმინალი და საინფორმაციო დაფა</a></p></li>
-<li><p><a class="reference internal" href="#studio-maxiot" id="id16">STUDIO-ს  დაკავშირება MAXIOT-ის სერვერთან</a></p></li>
-<li><p><a class="reference internal" href="#id6" id="id17">STUDIO კომპონენტების ოთახები</a></p></li>
-<li><p><a class="reference internal" href="#id7" id="id18">STUDIO კომპონენტებთან მუშაობა</a></p>
+<li><p><a class="reference internal" href="#id4" id="id13">MAXIOT STUDIO აპლიკაციის პლათფორმა</a></p></li>
+<li><p><a class="reference internal" href="#studio" id="id14">STUDIO ტერმინალი და საინფორმაციო დაფა</a></p></li>
+<li><p><a class="reference internal" href="#studio-maxiot" id="id15">STUDIO-ს  დაკავშირება MAXIOT-ის სერვერთან</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id16">STUDIO კომპონენტების ოთახები</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id17">STUDIO კომპონენტებთან მუშაობა</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id8" id="id19">კომპონენტების - სისტემაში დამატება</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id18">კომპონენტების - სისტემაში დამატება</a></p></li>
 </ul>
 </li>
 </ul>
@@ -196,35 +201,44 @@
 </li>
 </ul>
 </div>
+<div class="section" id="maxiot-server">
+<h2><a class="toc-backref" href="#id9">MAXIOT SERVER</a><a class="headerlink" href="#maxiot-server" title="Permalink to this headline">¶</a></h2>
+<p>MAXIOT SERVER-რი ეს არის MAXIOT სისტემის მთავარი ნაწილი, რომელიც ახორციელებს
+საგნების ინტერნეტის სერვერის ყველა აუცილებელ ფუნქციებს. MAXIOT SERVER-რის აპლიკაცია
+დაწერილია C ენის გამოყენებით და სამუშაო გარემოს წარმოადგენს ლინუქსის ოპერაციული
+სისტემა. სერვერის შეიძლება დაკომპილირდეს როგორც ARM ასევე x86 არქიტეკტურის ქვეშ,
+შესაბამისად სერვერი დაინსტალირება შესაძლებელია პრატიკულად ნებიმიერი მიკროკომპიუტერის
+ან ვირტუალური კომპიუტერის პლათფორმებზე. MAXIOT SERVER-რი ოპტიმიზირებულია იმისთვის
+, რომ რაც შეიძლება ოპტიმიალურად გამოიყენოს კომპიუტერის პროცესორის რესურსები და ოპერატიული
+მეხსიერება.</p>
+<a class="reference internal image-reference" href="../_images/2_01.jpg"><img alt="../_images/2_01.jpg" class="align-center" src="../_images/2_01.jpg" style="width: 400px;" /></a>
 <div class="section" id="id2">
-<h2><a class="toc-backref" href="#id10">MAXIOT სისტემის სერვერის და კლიენტის ზოგადი ცნება</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id3">
-<h3><a class="toc-backref" href="#id11">რა არის სერვერი</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id10">რა არის სერვერი</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 </div>
-<div class="section" id="id4">
-<h3><a class="toc-backref" href="#id12">რა არის კლიენტი</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="#id11">რა არის კლიენტი</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="maxiot-studio">
-<h2><a class="toc-backref" href="#id13">MAXIOT STUDIO</a><a class="headerlink" href="#maxiot-studio" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id12">MAXIOT STUDIO</a><a class="headerlink" href="#maxiot-studio" title="Permalink to this headline">¶</a></h2>
 <p>MAXIOT სისტემის სერვერის მართვის,პროგრაიმრების აპლიკაცია</p>
-<div class="section" id="id5">
-<h3><a class="toc-backref" href="#id14">MAXIOT STUDIO აპლიკაციის პლათფორმა</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="#id13">MAXIOT STUDIO აპლიკაციის პლათფორმა</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>(ოპრრაციული სისტემა, ვებ ბროუზერი)</p>
 </div>
 <div class="section" id="studio">
-<h3><a class="toc-backref" href="#id15">STUDIO ტერმინალი და საინფორმაციო დაფა</a><a class="headerlink" href="#studio" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id14">STUDIO ტერმინალი და საინფორმაციო დაფა</a><a class="headerlink" href="#studio" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="studio-maxiot">
-<h3><a class="toc-backref" href="#id16">STUDIO-ს  დაკავშირება MAXIOT-ის სერვერთან</a><a class="headerlink" href="#studio-maxiot" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id15">STUDIO-ს  დაკავშირება MAXIOT-ის სერვერთან</a><a class="headerlink" href="#studio-maxiot" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id16">STUDIO კომპონენტების ოთახები</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="id6">
-<h3><a class="toc-backref" href="#id17">STUDIO კომპონენტების ოთახები</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
-</div>
+<h3><a class="toc-backref" href="#id17">STUDIO კომპონენტებთან მუშაობა</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="id7">
-<h3><a class="toc-backref" href="#id18">STUDIO კომპონენტებთან მუშაობა</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id8">
-<h4><a class="toc-backref" href="#id19">კომპონენტების - სისტემაში დამატება</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id18">კომპონენტების - სისტემაში დამატება</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
 <p>(ავატარის დამატება)</p>
 </div>
 </div>
@@ -240,7 +254,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="P01_00.html" class="btn btn-neutral float-left" title="MAXIOT სისტემის შექნა" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="P01_00.html" class="btn btn-neutral float-left" title="MAXIOT სისტემის მომზადება" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
