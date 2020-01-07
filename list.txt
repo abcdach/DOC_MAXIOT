@@ -1,0 +1,24 @@
+
+
+
+
+`ლინუქსი <https://en.wikipedia.org/wiki/Linux>`__
+`VirtualBox <https://www.virtualbox.org/>`__
+`VmWare <https://www.vmware.com/>`__
+`ARM <https://en.wikipedia.org/wiki/ARM_architecture>`__
+`x86 <https://en.wikipedia.org/wiki/X86>`__
+`C <https://en.wikipedia.org/wiki/C_(programming_language)>`__
+`IOT <https://en.wikipedia.org/wiki/Internet_of_things>`__
+
+
+
+
+
+
+
+
+
+
+
+
+
