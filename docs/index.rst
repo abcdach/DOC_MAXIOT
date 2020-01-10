@@ -11,12 +11,11 @@ MAXIOT სისტემის დაკომფიგურირების
 განკუთვნილი დაკომპილირებული და ღია პროგრამული კოდები.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
-   
    pages/P01_00
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    
    pages/P02_00
