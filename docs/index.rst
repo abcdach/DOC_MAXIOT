@@ -10,12 +10,30 @@ MAXIOT - არის მრავალფუნქციური საგნ
 MAXIOT სისტემის დაკომფიგურირების ტექნოლოგიებს. ამავე დოკუმენტაციაში თავმოყრილია სხვადასხვა ამოცანებისთვის
 განკუთვნილი დაკომპილირებული და ღია პროგრამული კოდები.
 
-.. toctree::
-   :maxdepth: 2
-
-   pages/P01_00
 
 .. toctree::
    :maxdepth: 2
    
-   pages/P02_00
+   pages/P01_01.rst
+
+.. toctree::
+   :maxdepth: 2
+
+   pages/P01_02.rst
+
+.. toctree::
+   :maxdepth: 2
+   
+   pages/P02_01.rst
+   
+.. toctree::
+   :maxdepth: 3
+   
+   pages/P02_02.rst
+   
+   
+   
+   
+   
+   
+   
