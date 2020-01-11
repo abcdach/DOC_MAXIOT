@@ -11,9 +11,7 @@
 `IOT <https://en.wikipedia.org/wiki/Internet_of_things>`__
 `Ethernet <https://en.wikipedia.org/wiki/Ethernet>`__
 `Wi-Fi <https://en.wikipedia.org/wiki/Wi-Fi>`__
-
-
-
+`Goolge Chrome <https://www.google.com/chrome/>`__
 
 
 
