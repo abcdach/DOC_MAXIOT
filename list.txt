@@ -12,10 +12,6 @@
 `Ethernet <https://en.wikipedia.org/wiki/Ethernet>`__
 `Wi-Fi <https://en.wikipedia.org/wiki/Wi-Fi>`__
 `Goolge Chrome <https://www.google.com/chrome/>`__
-
-
-
-
-
-
-
+`Memory card reader <https://en.wikipedia.org/wiki/Memory_card_reader>`__
+`IP <https://en.wikipedia.org/wiki/IP_address>`__
+`IT <https://en.wikipedia.org/wiki/Information_technology>`__
