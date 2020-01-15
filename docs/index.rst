@@ -20,7 +20,12 @@ MAXIOT სისტემის დაკომფიგურირების
    :maxdepth: 2
 
    pages/P01_02.rst
+   
+.. toctree::
+   :maxdepth: 2
 
+   pages/CONFIG.rst
+   
 .. toctree::
    :maxdepth: 2
    
