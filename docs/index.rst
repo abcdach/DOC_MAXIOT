@@ -36,8 +36,11 @@ MAXIOT სისტემის დაკომფიგურირების
    
    pages/P02_02.rst
    
+
+.. toctree::
+   :maxdepth: 2
    
-   
+   pages/MEDIATOR.rst  
    
    
    

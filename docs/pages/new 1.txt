@@ -1,0 +1,9 @@
+დრო და თარიღი1
+====================
+.. contents:: სარჩევი
+.. include:: Mediator/test.rst
+
+დრო და თარიღი2
+====================
+.. contents:: სარჩევი
+.. include:: Mediator/test.rst
